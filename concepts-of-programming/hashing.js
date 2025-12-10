@@ -14,3 +14,10 @@ for(let i=0;i<str.length;i++){
   array[str[i].charCodeAt(0)-"a".charCodeAt(0)]++
 }
 console.log(array1)
+
+
+//hashing using objects 
+let arr=[1,2,3,2,1,2,1,2,4,5,4,5,6]
+  const counts = {};
+  arr.forEach(el => counts[el] = counts[el] ? counts[el] + 1 : 1)
+  console.log(counts)
