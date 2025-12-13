@@ -3,6 +3,7 @@ function missingNumbers(arr, brr) {
   arr.forEach(el => counts[el] = counts[el] ? counts[el] + 1 : 1);
   const counts1 = {};
   brr.forEach(el => counts1[el] = counts1[el] ? counts1[el] + 1 : 1);
+  
   let newarr=[]
   
 
