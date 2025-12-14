@@ -14,7 +14,7 @@ function workbook(n, k, arr) {
       }
        target++
       
-      console.log(page,target)
+      //console.log(page,target)
     }
     if((target - 1) % k !== 0)page++
     
