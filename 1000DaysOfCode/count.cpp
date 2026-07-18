@@ -1,3 +1,4 @@
+//Count the numbers of vowels , consonents , digit , special characters in the given string
 #include <iostream>
 #include <string>
 #include <regex>
