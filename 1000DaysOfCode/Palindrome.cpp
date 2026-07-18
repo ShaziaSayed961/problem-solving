@@ -1,6 +1,6 @@
 // Day 2 of 1000 dayes of code
 
-// problem:check if a string is palindrome or not
+// problem: check if a string is palindrome or not
 
 //code in C
 #include <iostream>
